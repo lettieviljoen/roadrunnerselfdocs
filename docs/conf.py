@@ -1,23 +1,27 @@
-# Configuration file for the Sphinx documentation builder
+# conf.py
 
 import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
 
+# -- Project information -----------------------------------------------------
+
 project = 'Roadrunner Self'
 copyright = '2025'
 author = 'Gert Vlok'
 
-release = '1.0'
+# -- General configuration ---------------------------------------------------
 
-extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.napoleon'
-]
+extensions = []
 
 templates_path = ['_templates']
 exclude_patterns = []
 
-html_theme = 'alabaster'
+# -- Options for HTML output -------------------------------------------------
+
+html_theme = 'alabaster'  # You can change this to 'sphinx_rtd_theme' or any other
+
 html_static_path = ['_static']
+
+# Include extra static files like robots.txt
+html_extra_path = ['_extra']
