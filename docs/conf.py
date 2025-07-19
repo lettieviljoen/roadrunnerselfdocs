@@ -24,4 +24,4 @@ html_theme = 'alabaster'  # You can change this to 'sphinx_rtd_theme' or any oth
 html_static_path = ['_static']
 
 # Include extra static files like robots.txt
-html_extra_path = ['_extra']
+html_extra_path = ['docs/_extra']
