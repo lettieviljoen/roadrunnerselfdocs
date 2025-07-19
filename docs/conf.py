@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Roadrunner Self'
+project = 'Rordrunhelpdocs'
 copyright = '2025'
 author = 'Gert Vlok'
 
